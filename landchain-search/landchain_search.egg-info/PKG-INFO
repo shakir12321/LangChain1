@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: landchain-search
+Version: 0.1.0
+Summary: LangChain search demo project
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: black>=25.1.0
+Requires-Dist: isort>=6.0.1
+Requires-Dist: langchain>=0.3.27
+Requires-Dist: langchain-openai>=0.3.30
+Requires-Dist: langchain-tavily>=0.2.11
+Requires-Dist: python-dotenv>=1.1.1
+
+# landchain-search
+
+Minimal LangChain search project scaffold using `pyproject.toml`.
+
+## Setup
+
+```bash
+cd /Users/shakir/langchain-attachment-demo/landchain-search
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
